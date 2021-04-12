@@ -59,7 +59,7 @@
         <%= @blog.body %>
         <!-- body部分 ここまで -->
       </p>
-      <a href="#">編集</a>
+      <%= link_to "編集", edit_blog_path(@blog) %>
       <a href="#">削除</a>
       <div class="author-case">
         <div class="author-image"></div>
@@ -115,4 +115,4 @@
 </main>
 <footer>
   <p class="footer-text">© All rights reserved by Infratop.Inc.</p>
-</footer>
+</footer>ra
